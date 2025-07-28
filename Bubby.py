@@ -5,7 +5,7 @@ import time
 
 # --- KONFIGURASI HALAMAN ---
 st.set_page_config(
-    page_title="Menunggu Hari Spesial...",
+    page_title="Menunggu Harinya Bubbyku...",
     page_icon="💖"
 )
 
@@ -17,7 +17,7 @@ waktu_target_ultah = tz_jakarta.localize(datetime(waktu_sekarang_jakarta.year, 1
 # --- TAMPILAN WEBSITE BERDASARKAN WAKTU ---
 if waktu_sekarang_jakarta < waktu_target_ultah:
     
-    st.title("Waktu Tersisa Menuju Harimu...")
+    st.title("Waktu Ultah Bubbyku!")
     st.header("❤️ ULTAH BUBBYY!! ❤️")
     st.markdown("---")
 
